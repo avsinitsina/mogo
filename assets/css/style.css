@@ -34,19 +34,19 @@ h1, h2, h3, h4, h5, h6{
     no-repeat;
     background-size: cover;
 }
-.introInner{
+.intro__inner{
     width: 100%;
     max-width: 880px;
     margin: 0 auto;
     text-align: center;
 }
-.introSupTitle{
+.intro__suptitle{
     margin-bottom: 20px;
     font-size: 60px;
     color: white;
     font-family: 'Kaushan Script', cursive;
 }
-.introTitle{
+.intro__title{
     font-size: 150px;
     font-weight: 700;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6{
     vertical-align: middle;
     line-height: 1;
 }
-.introTitle:after{
+.intro__title:after{
     content: "";
     display: block;
     width: 60px;
@@ -76,23 +76,23 @@ header{
     z-index: 1000;
     bottom: 0;
 }
-.headerInner{
+.header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.headerLogo{
+.header__logo{
     color: white;
     font-size: 30px;
     font-weight: 700;
 }
 
 /*Nav*/
-.headerNav{
+.nav{
     font-size: 17px;
     text-transform: uppercase;
 }
-.navLink{
+.nav__link{
     color: white;
     font-weight: 500;
     display: inline-block;
@@ -102,7 +102,7 @@ header{
     text-decoration: none;
     transition: color .1s linear;
 }
-.navLink:after{
+.nav__link:after{
     content: "";
     transition: opacity .1s linear;
     opacity: 0;
@@ -114,14 +114,14 @@ header{
     left: 0;
     z-index: 1;
 }
-.navLink:hover{
+.nav__link:hover{
     color: #fce38a;
 }
-.navLink:hover:after, 
-.navLink.active:after{
+.nav__link:hover:after, 
+.nav__link.active:after{
     opacity: 1;
 }
-.navLink.active{
+.nav__link.active{
     color: #fce38a;
 }
 /*Button*/
@@ -153,11 +153,11 @@ header{
     left: 0;
     z-index: 1;
 }
-.sliderInner{
+.slider__inner{
     display: flex;
     justify-content: space-between;
 }
-.sliderItem{
+.slider__item{
     width: 23%;
     color: white;
     padding: 20px 0;
@@ -167,14 +167,14 @@ header{
     opacity: .7;
     position: relative;
 }
-.sliderNum{
+.slider__num{
     font-size: 24px;
     font-weight: 600;
 }
-.sliderItem.active{
+.slider__item.active{
     opacity: 1;
 }
-.sliderItem.active:before{
+.slider__item.active:before{
     content: "";
     display: block;
     width: 70px;

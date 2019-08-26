@@ -286,3 +286,31 @@ header{
     display: block;
     margin: 10px auto;
 }
+
+/* Statistics */
+.statistics{
+    background-color: #95e1d3;
+}
+.stat{
+    display: flex;
+}
+.stat__item{
+    flex: 1 1 0;
+    border-left: 1px solid #b5eae0;
+    color: white;
+    padding: 70px 25px;
+    text-align: center;
+}
+.stat__item:last-child{
+    border-right: 1px solid #b5eae0;
+}
+.stat__num{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.stat__text{
+    font-size: 14px;
+    text-transform: uppercase;
+}
